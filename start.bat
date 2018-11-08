@@ -1,2 +1,2 @@
-NODE bc.js
+NODE bot.js
 pause
