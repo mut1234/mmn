@@ -1,12 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
  
- 
- 
- 
- 
- 
- 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setGame(` Coloring Team`,'https://www.twitch.tv/zya2d_')
@@ -41,8 +35,5 @@ client.on('message', message => {
     message.channel.send(ar,{tts:true});
 }
 });
- 
-
-
 
 client.login(process.env.BOT_TOKEN);
