@@ -9,4 +9,4 @@ client.on('ready', () => {
 
 
 
-client.login('توكن البوت');
+client.login('NDczNjMwNTg5MDU3MjM3MDAy.DsYtDQ.MXQ4wtuVka2CKpTsNYWKPmWrn80');
