@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "$";
-
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
@@ -27,6 +26,10 @@ client.on('ready', () => {
 client.user.setGame(`ɢи cℓαи`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
+
+
+
+client.login("NDczNjMwNTg5MDU3MjM3MDAy.DoO71w.lhSrmW8bypZhqGQN9KyjKUh2PLI");
 
 
 client.login(process.env.BOT_TOKEN);
